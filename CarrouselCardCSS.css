@@ -21,7 +21,7 @@ html{
 }
 .box-group{
     position: relative;
-    height: 430px;
+    height: 410px;
     overflow-x:scroll;
     scroll-behavior: smooth;
     transition: scroll .2s;
@@ -33,8 +33,8 @@ html{
 .card-group-carousel{
     position: relative;
     display: flex;
-    width: 1600px;
-    height: 400px;
+    width: 1300px;
+    height: 380px;
     justify-content: space-around;
     background-color: rgb(46, 43, 43);
     overflow-x:scroll;
@@ -60,7 +60,6 @@ html{
 }
 .carousel-control-box{
     display: grid;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     width: 100px;
     z-index: 10;
@@ -80,12 +79,10 @@ html{
 .carousel-box-next{
     position: fixed;
     left: 0px;
-    height: 400px;
 }
 .carousel-box-prev{
     position: fixed;
     left: 0px;
-    height: 400px;
 }
 .carousel-control:hover{
     color: black;
